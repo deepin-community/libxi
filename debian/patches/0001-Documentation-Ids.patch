@@ -1,0 +1,37 @@
+
+Add explicit ids to the documentation chapters and sections so they are
+identical no matter which architecture (or day or asciidoc version) the
+packages are built on. This is necessary for multi-arch compatibility.
+
+Author: Francois Gouget <fgouget@codeweavers.com>
+
+diff -u libXi-1.7.4.orig/specs/inputlib.xml libXi-1.7.4/specs/inputlib.xml
+--- libXi-1.7.4.orig/specs/inputlib.xml	2011-12-20 01:28:44.000000000 +0100
++++ libXi-1.7.4/specs/inputlib.xml	2015-02-10 16:22:13.817236191 +0100
+@@ -26,7 +26,7 @@
+      <holder>Ardent Computer</holder>
+    </copyright>
+ 
+-<legalnotice>
++<legalnotice id="Legal_Notice">
+ <para>
+ Permission to use, copy, modify, and distribute this documentation for any purpose and without
+ fee is hereby granted, provided that the above copyright notice and this permission notice appear
+@@ -36,7 +36,7 @@
+ </para>
+ </legalnotice>
+ 
+-<legalnotice>
++<legalnotice id="Multi_Licensing">
+ <para role="multiLicensing">
+ Copyright &copy; 1989, 1990, 1991, 1992 X Consortium
+ </para>
+diff -u libXi-1.7.4.orig/specs/library.xml libXi-1.7.4/specs/library.xml
+--- libXi-1.7.4.orig/specs/library.xml	2011-12-20 01:28:44.000000000 +0100
++++ libXi-1.7.4/specs/library.xml	2015-02-10 16:17:31.518591542 +0100
+@@ -1,4 +1,4 @@
+-<chapter><title>Input Extension</title>
++<chapter id='Input_Extension'><title>Input Extension</title>
+ <sect1 id='Overview'>
+ <title>Overview</title>
+ <!-- .XS -->
