@@ -1,3 +1,18 @@
+libxi (2:1.8.1-1) unstable; urgency=medium
+
+  [ Timo Aaltonen ]
+  * New upstream release.
+  * control: Drop obsolete Replaces.
+  * control: Migrate to pkgconf.
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster (oldstable):
+    + Build-Depends: Drop versioned constraint on asciidoc, libx11-dev,
+      libxext-dev, libxfixes-dev, xorg-sgml-doctools and xutils-dev.
+    + libxi-dev: Drop versioned constraint on xorg-sgml-doctools in Depends.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 15 Feb 2024 11:12:02 +0200
+
 libxi (2:1.8-1) unstable; urgency=medium
 
   [ Timo Aaltonen ]
