@@ -6,17 +6,17 @@ Build-Depends:
  debhelper-compat (= 12),
  quilt,
  x11proto-dev (>= 2021.5),
- libx11-dev (>= 2:1.4.99.1),
- libxext-dev (>= 2:1.1.1-3),
- libxfixes-dev (>= 5),
+ libx11-dev,
+ libxext-dev,
+ libxfixes-dev,
  xmlto,
- asciidoc (>= 8.4.5),
- pkg-config,
+ asciidoc,
+ pkgconf,
  quilt,
- xutils-dev (>= 1:7.6+2),
+ xutils-dev,
 # specs
  xmlto,
- xorg-sgml-doctools (>= 1:1.8),
+ xorg-sgml-doctools,
  xsltproc,
  w3m,
 Standards-Version: 4.5.0
@@ -63,9 +63,7 @@ Depends:
  libxext-dev,
  libxfixes-dev,
  x11proto-dev (>= 2021.5),
- xorg-sgml-doctools (>= 1:1.5),
-Replaces:
- x11proto-input-dev (<< 1.9.99)
+ xorg-sgml-doctools,
 Description: X11 Input extension library (development headers)
  libXi provides an X Window System client interface to the XINPUT
  extension to the X protocol.
