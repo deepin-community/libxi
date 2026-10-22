@@ -1,3 +1,12 @@
+libxi (2:1.8.1-1deepin3) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-93544 (medium) - XIQueryDevice: keep padded name
+    and class bytes within the reply   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libxi/-
+    /commit/e2ec4a1c8403c99f6c08621920b0efb0e0d6d533
+
+ -- deepin-ci-robot <packages@deepin.org>  Fri, 23 Oct 2026 01:22:58 +0800
+
 libxi (2:1.8.1-1deepin2) unstable; urgency=medium
 
   * fix(cve): CVE-2026-93543 (high) - [PATCH 3/7]
