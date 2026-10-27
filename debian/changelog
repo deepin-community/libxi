@@ -12,6 +12,12 @@ libxi (2:1.8.1-1deepin3) unstable; urgency=medium
     reply control to match the request   Upstream:
     https://gitlab.freedesktop.org/xorg/lib/libxi/-
     /commit/f7836d0a0f45e9e6c2c147c5dea4b6bc08231f2e
+  * fix(cve): CVE-2026-109090 (unknown) - XGetDeviceControl: size
+    DEVICE_ENABLE replies for XDeviceEnableState   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libxi/-
+    /commit/4eb9f70b67034ace1abdf785fd8dcba7b6dc739d,https://gitlab.free
+    desktop.org/xorg/lib/libxi/-
+    /commit/8c4dfb762b4a305a2f0f85b1af3fdca395c44359
 
  -- deepin-ci-robot <packages@deepin.org>  Fri, 23 Oct 2026 01:22:58 +0800
 
