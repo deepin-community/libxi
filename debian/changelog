@@ -8,6 +8,10 @@ libxi (2:1.8.1-1deepin3) unstable; urgency=medium
     buttons_len against the received event size   Upstream:
     https://gitlab.freedesktop.org/xorg/lib/libxi/-
     /commit/8caed97a3e356ff5827704f3c28aed0d50d9136d.patch
+  * fix(cve): CVE-2026-109089 (unknown) - XGetDeviceControl: require
+    reply control to match the request   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libxi/-
+    /commit/f7836d0a0f45e9e6c2c147c5dea4b6bc08231f2e
 
  -- deepin-ci-robot <packages@deepin.org>  Fri, 23 Oct 2026 01:22:58 +0800
 
