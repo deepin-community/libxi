@@ -4,6 +4,10 @@ libxi (2:1.8.1-1deepin3) unstable; urgency=medium
     and class bytes within the reply   Upstream:
     https://gitlab.freedesktop.org/xorg/lib/libxi/-
     /commit/e2ec4a1c8403c99f6c08621920b0efb0e0d6d533
+  * fix(cve): CVE-2026-94282 (unknown) - wireToEnterLeave: validate
+    buttons_len against the received event size   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libxi/-
+    /commit/8caed97a3e356ff5827704f3c28aed0d50d9136d.patch
 
  -- deepin-ci-robot <packages@deepin.org>  Fri, 23 Oct 2026 01:22:58 +0800
 
